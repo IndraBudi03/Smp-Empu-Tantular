@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cv_Profil" type="id" />
+    <item name="cv_GuruDanStaff" type="id" />
+    <item name="cv_Ekskul" type="id" />
+    <item name="cv_Fasilitas" type="id" />
+    <item name="cv_Galeri" type="id" />
+</resources>

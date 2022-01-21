@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Ekskul">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#6495ED"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/rb"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rebana"
+                            android:textSize="45sp"
+                            android:textColor="#FFD700"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Hari : Selasa"
+                            android:textColor="#C71585"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="15dp"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textColor="#8B0000"
+                            android:textSize="15sp"
+                            android:text="Pengampu : Miftahuddin, S.Ag"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="15dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                app:cardCornerRadius="12dp"
+                app:cardBackgroundColor="#6495ED"
+                app:cardElevation="10dp"
+                android:layout_marginTop="190dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/ms"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Seni Musik"
+                            android:textColor="#FFD700"
+                            android:textSize="45sp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Hari : Rabu"
+                            android:textColor="#C71585"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Pengampu : Asfriningsih Desi, S.Pd"
+                            android:textColor="#8B0000"
+                            android:textSize="15sp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="15dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#6495ED"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                android:layout_marginTop="360dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/vl"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bola Voli"
+                            android:textColor="#FFD700"
+                            android:textSize="45sp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Hari : Rabu"
+                            android:textColor="#C71585"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textColor="#8B0000"
+                            android:text="Pengampu : Khoeriyah, S.Pd"
+                            android:textSize="15sp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="15dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#6495ED"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                android:layout_marginTop="530dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/fl"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Futsal"
+                            android:textColor="#FFD700"
+                            android:textSize="45sp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Hari : Kamis"
+                            android:textColor="#C71585"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textColor="#8B0000"
+                            android:textSize="15sp"
+                            android:text="Pengampu : Erwin Budi Setyo, S.Pd"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="15dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#6495ED"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                android:layout_marginTop="700dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/bs"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Basket"
+                            android:textColor="#FFD700"
+                            android:textSize="45sp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Hari : Kamis"
+                            android:textColor="#C71585"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textColor="#8B0000"
+                            android:text="Pengampu : Khoeriyah, S.Pd"
+                            android:textSize="15sp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="15dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#6495ED"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                android:layout_marginTop="870dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/tr"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Seni Tari"
+                            android:textColor="#FFD700"
+                            android:textSize="45sp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Hari : Kamis"
+                            android:textColor="#C71585"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textColor="#8B0000"
+                            android:text="Pengampu : Pusparini, S.Pd"
+                            android:textSize="15sp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="15dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="180dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#6495ED"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                android:layout_marginTop="1040dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/pr"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pramuka"
+                            android:textSize="45sp"
+                            android:textColor="#FFD700"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Hari : Jumat"
+                            android:textColor="#C71585"
+                            android:textSize="20sp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textColor="#8B0000"
+                            android:textSize="15sp"
+                            android:text="Pengampu : Yahya Farkani, S.Pd"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="15dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textColor="#8B0000"
+                            android:textSize="15sp"
+                            android:text="               Apriawan Bagas"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginLeft="15dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
